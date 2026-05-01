@@ -1,0 +1,34 @@
+{
+  "scores": [
+    {
+      "mapping": {
+        "15": "left",
+        "16": "right"
+      },
+      "good_events": 1200,
+      "good_trials": 40,
+      "total_events": 1200,
+      "total_trials": 40
+    },
+    {
+      "mapping": {
+        "15": "right",
+        "16": "left"
+      },
+      "good_events": 0,
+      "good_trials": 0,
+      "total_events": 1200,
+      "total_trials": 40
+    }
+  ],
+  "chosen": {
+    "mapping": {
+      "15": "left",
+      "16": "right"
+    },
+    "good_events": 1200,
+    "good_trials": 40,
+    "total_events": 1200,
+    "total_trials": 40
+  }
+}

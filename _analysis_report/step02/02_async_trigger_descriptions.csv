@@ -1,0 +1,4 @@
+name,id,edge,description,channel_number,is_trigger
+Trigger 1,15,RaisingEdge,Stim,1,true
+Trigger 2,16,RaisingEdge,Index,2,true
+Trigger 3,17,RaisingEdge,Middle,3,true

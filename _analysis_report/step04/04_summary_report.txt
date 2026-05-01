@@ -1,0 +1,34 @@
+STEP 04 HARMONIC-AWARE CCA SSVEP REPORT
+================================================================================
+
+Input
+--------------------------------------------------------------------------------
+HDF5 files loaded: 2
+  1. F:\KTU\Lithuania\Secondment Denmark\Codes\First SSVEP EEG Recording- Overt\Subject12026.04.30_13.59.13.hdf5 | duration=1200.04s | triggers=900
+  2. F:\KTU\Lithuania\Secondment Denmark\Codes\First SSVEP EEG Recording- Overt\Subject1-12026.04.30_14.20.19.hdf5 | duration=353.98s | triggers=300
+Sampling rate: 512.000 Hz
+Total merged samples: 795660
+Trials analyzed: 40
+Analysis window: 2.00 to 29.00 s after trial onset
+Included QC statuses: good
+Selected channels (13): O1, Oz, O2, PO7, PO3, POz, PO4, PO8, P5, P2, P4, P6, P8
+CCA harmonics for 9 Hz: 9,18,27
+CCA harmonics for 14 Hz: 14,28,42
+
+CCA classification
+--------------------------------------------------------------------------------
+Overall CCA accuracy: 100.0%
+Left / 9 Hz CCA accuracy: 100.0%
+Right / 14 Hz CCA accuracy: 100.0%
+
+Condition summary
+--------------------------------------------------------------------------------
+left_9hz: n=20, mean rho9=0.3993, mean rho14=0.0742, mean margin 9-14=0.3250, accuracy=100.0%
+right_14hz: n=20, mean rho9=0.1807, mean rho14=0.2874, mean margin 9-14=-0.1067, accuracy=100.0%
+
+Interpretation guide
+--------------------------------------------------------------------------------
+CCA is a standard SSVEP detection approach because it uses sine/cosine references and harmonics.
+For left trials, rho(9 Hz) should be higher than rho(14 Hz).
+For right trials, rho(14 Hz) should be higher than rho(9 Hz).
+This is especially useful here because the right/14 Hz condition showed a strong 28 Hz harmonic in Step 03.

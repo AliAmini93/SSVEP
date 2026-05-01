@@ -1,0 +1,67 @@
+STEP 03 DETAILED SSVEP REPORT
+================================================================================
+
+Input and alignment
+--------------------------------------------------------------------------------
+HDF5 files loaded: 2
+  1. Subject12026.04.30_13.59.13.hdf5 | duration=1200.04s | triggers=900
+  2. Subject1-12026.04.30_14.20.19.hdf5 | duration=353.98s | triggers=300
+Sampling rate: 512.000 Hz
+Total merged samples: 795660
+Total merged duration: 1554.02 s
+Step 02 trials used: 40
+Trials analyzed in Step 03: 40
+Analysis window: 2.00 to 29.00 s after trial onset
+Filtering: 1-45 Hz bandpass + 50 Hz notch
+
+Channel selection
+--------------------------------------------------------------------------------
+Included QC statuses: good
+Selected channels (13): O1, Oz, O2, PO7, PO3, POz, PO4, PO8, P5, P2, P4, P6, P8
+Best channels by target-minus-non-target evidence:
+  Oz: mean diff=4.313 dB, median diff=3.695 dB, status=good
+  O2: mean diff=3.739 dB, median diff=3.742 dB, status=good
+  O1: mean diff=2.633 dB, median diff=3.469 dB, status=good
+  PO7: mean diff=2.350 dB, median diff=2.715 dB, status=good
+  PO8: mean diff=2.335 dB, median diff=1.858 dB, status=good
+  P8: mean diff=1.732 dB, median diff=1.809 dB, status=good
+  PO4: mean diff=1.504 dB, median diff=2.196 dB, status=good
+  P5: mean diff=1.453 dB, median diff=2.111 dB, status=good
+  PO3: mean diff=1.317 dB, median diff=1.313 dB, status=good
+  P6: mean diff=1.079 dB, median diff=1.625 dB, status=good
+
+SSVEP evidence
+--------------------------------------------------------------------------------
+Mean target SNR: 1.311 dB
+Mean non-target SNR: -0.411 dB
+Mean target-minus-non-target SNR: 1.722 dB
+Median target-minus-non-target SNR: 2.040 dB
+Simple 9-vs-14 trial classification accuracy: 75.0%
+  Left/9Hz trials accuracy: 90.0%
+  Right/14Hz trials accuracy: 60.0%
+
+Condition summary
+--------------------------------------------------------------------------------
+left_9hz: n=20, target SNR=1.788 dB, non-target SNR=-1.051 dB, target-non-target=2.839 dB, classification acc=90.0%
+right_14hz: n=20, target SNR=0.834 dB, non-target SNR=0.229 dB, target-non-target=0.605 dB, classification acc=60.0%
+
+Interpretation guide
+--------------------------------------------------------------------------------
+Positive: the recording shows usable SSVEP evidence.
+Important caveat: 9 Hz overlaps with natural alpha activity, so 9 Hz effects should be interpreted carefully.
+The 14 Hz response and 28 Hz harmonic are useful additional evidence for the right-target condition.
+
+Generated files
+--------------------------------------------------------------------------------
+03_best_channels.csv
+03_best_channels_evidence.png
+03_channel_condition_summary.csv
+03_channel_trial_snr_long.csv
+03_condition_summary.csv
+03_condition_target_vs_nontarget_snr.png
+03_selected_channels.csv
+03_selected_posterior_psd_by_condition.png
+03_snr_9_vs_14_scatter.png
+03_summary_report.txt
+03_trial_level_evidence.png
+03_trial_level_ssvep.csv

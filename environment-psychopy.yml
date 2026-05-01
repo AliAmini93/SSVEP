@@ -1,0 +1,12 @@
+name: psychopy
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - psychopy
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - h5py
+  - pip

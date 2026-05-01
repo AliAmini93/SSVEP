@@ -1,0 +1,61 @@
+STEP 02 SUMMARY REPORT
+================================================================================
+
+Input files in merge order:
+  1. Subject12026.04.30_13.59.13.hdf5 | start=2026-04-30T11:59:13.2769277Z | samples=614420 | duration=1200.04s | triggers=900
+  2. Subject1-12026.04.30_14.20.19.hdf5 | start=2026-04-30T12:20:19.8997217Z | samples=181240 | duration=353.98s | triggers=300
+
+Recording:
+  Sampling rate: 512.0 Hz
+  Merged samples: 795660
+  Merged duration: 1554.02 s
+  Channels: 64
+
+PsychoPy:
+  Trials CSV: F:\KTU\Lithuania\Secondment Denmark\Codes\data\005_005_2026-04-30_13h59.55.909_simple_ssvep_direct_gaze_pilot_trials.csv
+  Number of trials: 40
+  Expected photodiode pulses: 1200
+
+Triggers:
+  Observed triggers: 1200
+    TypeID 15: 600
+    TypeID 16: 600
+  Inferred mapping: {15: 'left', 16: 'right'}
+  Trials with full side match: 40/40
+
+Channel QC:
+  Good: 36
+  Review: 27
+  Bad: 1
+
+First SSVEP check:
+  Frequencies checked: [9.0, 14.0]
+  Mean occipital target SNR: 1.196 dB
+  Mean occipital non-target SNR: -0.601 dB
+  Top occipital channels by target SNR:
+    Oz: 4.199 dB (n=40)
+    O2: 3.999 dB (n=40)
+    PO8: 2.625 dB (n=40)
+    O1: 2.234 dB (n=40)
+    PO7: 2.093 dB (n=40)
+    P7: 1.813 dB (n=40)
+    P8: 1.551 dB (n=40)
+    PO4: 1.259 dB (n=40)
+    P6: 0.882 dB (n=40)
+    P5: 0.670 dB (n=40)
+
+Generated files:
+  02_async_trigger_descriptions.csv
+  02_channel_metadata.csv
+  02_channel_qc_robust_std.png
+  02_channel_quality.csv
+  02_hdf5_file_summary.csv
+  02_merged_triggers.csv
+  02_occipital_psd_left_vs_right.png
+  02_ssvep_channel_summary.csv
+  02_ssvep_trial_channel_snr.csv
+  02_summary_report.txt
+  02_trial_event_match.csv
+  02_trigger_counts_by_file.csv
+  02_trigger_mapping_info.json
+  02_trigger_timeline.png

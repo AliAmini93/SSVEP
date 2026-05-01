@@ -1,0 +1,35 @@
+STEP 05 PERMUTATION / SANITY-CHECK REPORT
+================================================================================
+
+Input
+--------------------------------------------------------------------------------
+Step 04 trial file: F:\KTU\Lithuania\Secondment Denmark\Codes\First SSVEP EEG Recording- Overt\_analysis_report\step04\04_trial_level_cca.csv
+Trials analyzed: 40
+True labels: left=20, right=20
+Predicted labels: left=20, right=20
+
+Observed result
+--------------------------------------------------------------------------------
+Observed correct trials: 40/40
+Observed accuracy: 100.00%
+Mean target rho: 0.343332
+Mean non-target rho: 0.127495
+Mean signed target margin: 0.215837
+Minimum signed target margin: 0.022109
+
+Condition summary
+--------------------------------------------------------------------------------
+left: n=20, accuracy=100.0%, mean target rho=0.399265, mean non-target rho=0.074247, mean margin=0.325017, min margin=0.128872
+right: n=20, accuracy=100.0%, mean target rho=0.287399, mean non-target rho=0.180742, mean margin=0.106657, min margin=0.022109
+
+Permutation controls
+--------------------------------------------------------------------------------
+Monte-Carlo label-shuffle permutations: 10000
+Monte-Carlo shuffled-label p-value for accuracy >= observed: 0.00009999
+Exact label-shuffle p-value for accuracy >= observed: 7.25444455192e-12
+Monte-Carlo sign-flip p-value for mean target margin >= observed: 0.00009999
+
+Interpretation
+--------------------------------------------------------------------------------
+The observed CCA classification is far above what would be expected from shuffled labels. This supports the interpretation that the Step 04 classification reflects condition-specific SSVEP structure rather than a trivial label/order artifact.
+Every trial had target CCA rho greater than non-target CCA rho. This is a strong trial-level sanity check.

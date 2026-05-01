@@ -1,0 +1,176 @@
+{
+  "searched_dirs": [
+    "F:\\KTU\\Lithuania\\Secondment Denmark\\Codes\\data",
+    "F:\\KTU\\Lithuania\\Secondment Denmark\\Codes\\First SSVEP EEG Recording- Overt",
+    "F:\\KTU\\Lithuania\\Secondment Denmark\\Codes\\data",
+    "F:\\KTU\\Lithuania\\Secondment Denmark\\Codes\\data"
+  ],
+  "found_files": {
+    "trials": [
+      "F:\\KTU\\Lithuania\\Secondment Denmark\\Codes\\data\\001_001_2026-04-30_13h39.56.881_simple_ssvep_direct_gaze_pilot_trials.csv",
+      "F:\\KTU\\Lithuania\\Secondment Denmark\\Codes\\data\\001_001_2026-04-30_13h41.39.809_simple_ssvep_direct_gaze_pilot_trials.csv",
+      "F:\\KTU\\Lithuania\\Secondment Denmark\\Codes\\data\\005_005_2026-04-30_13h59.55.909_simple_ssvep_direct_gaze_pilot_trials.csv",
+      "F:\\KTU\\Lithuania\\Secondment Denmark\\Codes\\data\\001_001_2026-04-30_13h39.56.881_simple_ssvep_direct_gaze_pilot_trials.csv",
+      "F:\\KTU\\Lithuania\\Secondment Denmark\\Codes\\data\\001_001_2026-04-30_13h41.39.809_simple_ssvep_direct_gaze_pilot_trials.csv",
+      "F:\\KTU\\Lithuania\\Secondment Denmark\\Codes\\data\\005_005_2026-04-30_13h59.55.909_simple_ssvep_direct_gaze_pilot_trials.csv",
+      "F:\\KTU\\Lithuania\\Secondment Denmark\\Codes\\data\\001_001_2026-04-30_13h39.56.881_simple_ssvep_direct_gaze_pilot_trials.csv",
+      "F:\\KTU\\Lithuania\\Secondment Denmark\\Codes\\data\\001_001_2026-04-30_13h41.39.809_simple_ssvep_direct_gaze_pilot_trials.csv",
+      "F:\\KTU\\Lithuania\\Secondment Denmark\\Codes\\data\\005_005_2026-04-30_13h59.55.909_simple_ssvep_direct_gaze_pilot_trials.csv"
+    ],
+    "meta": [
+      "F:\\KTU\\Lithuania\\Secondment Denmark\\Codes\\data\\001_001_2026-04-30_13h39.56.881_simple_ssvep_direct_gaze_pilot_meta.txt",
+      "F:\\KTU\\Lithuania\\Secondment Denmark\\Codes\\data\\001_001_2026-04-30_13h41.39.809_simple_ssvep_direct_gaze_pilot_meta.txt",
+      "F:\\KTU\\Lithuania\\Secondment Denmark\\Codes\\data\\005_005_2026-04-30_13h59.55.909_simple_ssvep_direct_gaze_pilot_meta.txt",
+      "F:\\KTU\\Lithuania\\Secondment Denmark\\Codes\\data\\001_001_2026-04-30_13h39.56.881_simple_ssvep_direct_gaze_pilot_meta.txt",
+      "F:\\KTU\\Lithuania\\Secondment Denmark\\Codes\\data\\001_001_2026-04-30_13h41.39.809_simple_ssvep_direct_gaze_pilot_meta.txt",
+      "F:\\KTU\\Lithuania\\Secondment Denmark\\Codes\\data\\005_005_2026-04-30_13h59.55.909_simple_ssvep_direct_gaze_pilot_meta.txt",
+      "F:\\KTU\\Lithuania\\Secondment Denmark\\Codes\\data\\001_001_2026-04-30_13h39.56.881_simple_ssvep_direct_gaze_pilot_meta.txt",
+      "F:\\KTU\\Lithuania\\Secondment Denmark\\Codes\\data\\001_001_2026-04-30_13h41.39.809_simple_ssvep_direct_gaze_pilot_meta.txt",
+      "F:\\KTU\\Lithuania\\Secondment Denmark\\Codes\\data\\005_005_2026-04-30_13h59.55.909_simple_ssvep_direct_gaze_pilot_meta.txt"
+    ],
+    "timing": [
+      "F:\\KTU\\Lithuania\\Secondment Denmark\\Codes\\data\\005_005_2026-04-30_13h59.55.909_simple_ssvep_direct_gaze_pilot_timingSummary.txt",
+      "F:\\KTU\\Lithuania\\Secondment Denmark\\Codes\\data\\005_005_2026-04-30_13h59.55.909_simple_ssvep_direct_gaze_pilot_timingSummary.txt",
+      "F:\\KTU\\Lithuania\\Secondment Denmark\\Codes\\data\\005_005_2026-04-30_13h59.55.909_simple_ssvep_direct_gaze_pilot_timingSummary.txt"
+    ],
+    "frame_intervals": [
+      "F:\\KTU\\Lithuania\\Secondment Denmark\\Codes\\data\\005_005_2026-04-30_13h59.55.909_simple_ssvep_direct_gaze_pilot_frameIntervals_ms.txt",
+      "F:\\KTU\\Lithuania\\Secondment Denmark\\Codes\\data\\005_005_2026-04-30_13h59.55.909_simple_ssvep_direct_gaze_pilot_frameIntervals_ms.txt",
+      "F:\\KTU\\Lithuania\\Secondment Denmark\\Codes\\data\\005_005_2026-04-30_13h59.55.909_simple_ssvep_direct_gaze_pilot_frameIntervals_ms.txt"
+    ]
+  },
+  "trial_summaries": [
+    {
+      "file": "F:\\KTU\\Lithuania\\Secondment Denmark\\Codes\\data\\001_001_2026-04-30_13h39.56.881_simple_ssvep_direct_gaze_pilot_trials.csv",
+      "n_rows": 0,
+      "columns": [
+        "participant",
+        "session",
+        "date",
+        "block",
+        "trial_in_block",
+        "gaze_mode",
+        "attend_side",
+        "gaze_target_side",
+        "target_freq",
+        "catch_trial",
+        "dim_time_s",
+        "response_key",
+        "response_rt_s",
+        "hit",
+        "miss",
+        "false_alarm",
+        "anticipatory_response",
+        "stim_onset_global_s",
+        "photodiode_used",
+        "photodiode_trigger_side",
+        "photodiode_on_frames",
+        "photodiode_pulse_interval_s",
+        "expected_photodiode_pulses",
+        "dropped_frames_trial",
+        "n_frame_intervals_trial",
+        "max_frame_interval_ms_trial",
+        "mean_frame_interval_ms_trial",
+        "measured_refresh_hz"
+      ]
+    },
+    {
+      "file": "F:\\KTU\\Lithuania\\Secondment Denmark\\Codes\\data\\001_001_2026-04-30_13h41.39.809_simple_ssvep_direct_gaze_pilot_trials.csv",
+      "n_rows": 0,
+      "columns": [
+        "participant",
+        "session",
+        "date",
+        "block",
+        "trial_in_block",
+        "gaze_mode",
+        "attend_side",
+        "gaze_target_side",
+        "target_freq",
+        "catch_trial",
+        "dim_time_s",
+        "response_key",
+        "response_rt_s",
+        "hit",
+        "miss",
+        "false_alarm",
+        "anticipatory_response",
+        "stim_onset_global_s",
+        "photodiode_used",
+        "photodiode_trigger_side",
+        "photodiode_on_frames",
+        "photodiode_pulse_interval_s",
+        "expected_photodiode_pulses",
+        "dropped_frames_trial",
+        "n_frame_intervals_trial",
+        "max_frame_interval_ms_trial",
+        "mean_frame_interval_ms_trial",
+        "measured_refresh_hz"
+      ]
+    },
+    {
+      "file": "F:\\KTU\\Lithuania\\Secondment Denmark\\Codes\\data\\005_005_2026-04-30_13h59.55.909_simple_ssvep_direct_gaze_pilot_trials.csv",
+      "n_rows": 40,
+      "columns": [
+        "participant",
+        "session",
+        "date",
+        "block",
+        "trial_in_block",
+        "gaze_mode",
+        "attend_side",
+        "gaze_target_side",
+        "target_freq",
+        "catch_trial",
+        "dim_time_s",
+        "response_key",
+        "response_rt_s",
+        "hit",
+        "miss",
+        "false_alarm",
+        "anticipatory_response",
+        "stim_onset_global_s",
+        "photodiode_used",
+        "photodiode_trigger_side",
+        "photodiode_on_frames",
+        "photodiode_pulse_interval_s",
+        "expected_photodiode_pulses",
+        "dropped_frames_trial",
+        "n_frame_intervals_trial",
+        "max_frame_interval_ms_trial",
+        "mean_frame_interval_ms_trial",
+        "measured_refresh_hz"
+      ],
+      "blocks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "trials_per_block": {
+        "1": 10,
+        "2": 10,
+        "3": 10,
+        "4": 10
+      },
+      "attend_side_counts": {
+        "left": 20,
+        "right": 20
+      },
+      "gaze_target_side_counts": {
+        "left": 20,
+        "right": 20
+      },
+      "target_freq_counts": {
+        "9": 20,
+        "14": 20
+      },
+      "expected_total_photodiode_pulses": 1200,
+      "expected_pulses_per_trial_unique": [
+        30
+      ],
+      "dropped_frames_total_from_trials_csv": 5640,
+      "trials_with_dropped_frames_from_trials_csv": 40
+    }
+  ]
+}

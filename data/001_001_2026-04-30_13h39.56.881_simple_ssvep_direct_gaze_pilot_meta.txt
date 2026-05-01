@@ -1,0 +1,28 @@
+Experiment: simple_ssvep_direct_gaze_pilot
+Participant: 001
+Session: 001
+Date: 2026-04-30_13h39.56.881
+Gaze mode: overt_direct_gaze
+Instruction: look directly at the cued flickering square
+Measured refresh rate: 60.010 Hz
+Refresh rate used for flicker: 60 Hz
+Expected frame duration: 16.6667 ms
+Flicker generation: phase-based square wave sampled per frame
+Left frequency: 9 Hz
+Right frequency: 14 Hz
+Stimulation duration: 30.0 s
+Fullscreen: True
+Screen index: 1
+Catch task enabled: False
+Left stimulus position: (-650, 0)
+Right stimulus position: (650, 0)
+Stimulus size: (220, 220)
+Photodiode patch enabled: True
+Photodiode ON image: F:\KTU\Lithuania\Secondment Denmark\Codes\ScreenTrigOn.png
+Photodiode OFF image: F:\KTU\Lithuania\Secondment Denmark\Codes\ScreenTrigOff.png
+Left photodiode position: (-0.7, -0.4)
+Right photodiode position: (0.7, -0.4)
+Photodiode size: 0.05
+Photodiode on frames per pulse: 2
+Photodiode pulse interval: 1.0 s
+Photodiode pulse interval frames: 60

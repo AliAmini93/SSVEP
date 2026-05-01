@@ -1,0 +1,9 @@
+Stim-only frame intervals collected: 71960
+Expected frame duration: 16.666667 ms
+Refresh threshold used by PsychoPy: 20.000000 ms
+Mean frame interval: 16.667325 ms
+Min frame interval: 6.841800 ms
+Max frame interval: 74.931100 ms
+Stim-only dropped frames total: 5640
+Trials with dropped frames: 40
+Intervals over threshold: 5640
